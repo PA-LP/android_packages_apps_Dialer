@@ -22,6 +22,7 @@ LOCAL_SRC_FILES += ../../providers/ContactsProvider/src/com/android/providers/co
                    ../../providers/ContactsProvider/src/com/android/providers/contacts/HanziToPinyin.java \
                    ../../providers/ContactsProvider/src/com/android/providers/contacts/util/NeededForTesting.java
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dirs))
+LOCAL_ASSET_DIR := $(LOCAL_PATH)/assets
 
 LOCAL_AAPT_FLAGS := \
     --auto-add-overlay \
